@@ -1,0 +1,22 @@
+
+path: ../datasets/coco128
+train: C:/Users/S12/Desktop/Yolov5Learn/yolov5/det_dxf/images/train  # train images (relative to 'path') 128 images
+val: C:/Users/S12/Desktop/Yolov5Learn/yolov5/det_dxf/images/val  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+nc: 7
+# Classes
+
+names:
+  0: hero
+  1: door
+  2: moster
+  3: money
+  4: boss
+  5: option
+  6: fanpai
+
+
+# Download script/URL (optional)
+#download: https://ultralytics.com/assets/coco128.zip
+
